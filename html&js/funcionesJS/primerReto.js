@@ -4,7 +4,7 @@ function greeting() {
 }
 // 2
 function greetingWName(name) {
-    console.log(`¡Hola, ${name}`);
+    console.log(`¡Hola, ${name}!`);
 }
 // 3
 function doubleNumber(number) {
@@ -26,3 +26,16 @@ function maxNumber(number1, number2) {
 function multiplyNumber(number) {
     return number * number;
 }
+// ejemplos
+// 1
+greeting();
+// 2
+greetingWName('Pato');
+// 3
+console.log(`El doble de 2 es ${doubleNumber(2)}`);
+// 4
+console.log(`El promedio entre 3, 4 y 5 es ${calculateAverage(3,4,5)}`);
+// 5
+console.log(`El maximo entre 20 y 36 es ${maxNumber(20,36)}`);
+// 6
+console.log(`5 por si mismo es ${multiplyNumber(5)}`);
